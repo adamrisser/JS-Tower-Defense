@@ -56,7 +56,7 @@
         self.placed   = false;
         
         self.img = new Image();
-        self.img.src = 'file:///Users/arisser/Desktop/td/img/towers/mgun.png';
+        self.img.src = 'img/towers/mgun.png';
     };
     
     td.MachineGun.prototype = {

@@ -56,7 +56,7 @@
         self.placed   = false;
         
         self.img = new Image();
-        self.img.src = 'file:///Users/arisser/Desktop/td/img/towers/cannon2.png';
+        self.img.src = 'img/towers/cannon2.png';
         
         self.laser = null;
     };

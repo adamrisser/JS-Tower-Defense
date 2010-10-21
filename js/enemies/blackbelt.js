@@ -39,7 +39,7 @@
         self.velocity = config.velocity;
         
         self.img = new Image();
-        self.img.src = 'file:///Users/arisser/Desktop/td/img/enemies.png';
+        self.img.src = 'img/enemies.png';
         
         self._pos = 0;
         self._frame = 0;

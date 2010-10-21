@@ -9,7 +9,7 @@
         self.context = td.canvas.getContext("2d");
         
         self.img = new Image();
-        self.img.src = 'file:///Users/arisser/Desktop/td/img/levels/1.png';
+        self.img.src = 'img/levels/1.png';
     };
 
     td.Track.prototype = {
