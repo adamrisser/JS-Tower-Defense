@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>TD</title>
+		<style type="text/css">
+			#track {
+				border: 1px solid #000;
+			}
+            
+            #score {
+                position: absolute;
+                top: 8px;
+                left: 1020px;
+            }
+            
+            #sign, #money, #heart, #lives {
+                font-size: 1.2em;
+            }
+            
+            #sign {
+                color: #090;
+            }
+            
+            #money, #lives {
+                color: #666;
+            }
+            
+            #heart {
+                color: #d00;
+            }
+            
+		</style>
+	</head>
+	<body>
+		<canvas id="track" width="1000" height="600"></canvas>
+        
+        <table id="score">
+            <tr>
+                <td id="sign" >$</td>
+                <td id="money">0</td>
+            </tr>
+            <tr>
+                <td id="heart"><3</td>
+                <td id="lives" >0</td>
+            </tr>
+        </table>
+        
+		<script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/player.js"></script>
+        <script type="text/javascript" src="js/events.js"></script>
+		<script type="text/javascript" src="js/track.js"></script>
+		<script type="text/javascript" src="js/waves.js"></script>
+        
+		<script type="text/javascript" src="js/enemies/enemy.js"></script>
+		<script type="text/javascript" src="js/enemies/circle.js"></script>
+		<script type="text/javascript" src="js/enemies/square.js"></script>
+        <script type="text/javascript" src="js/enemies/warrior.js"></script>
+        <script type="text/javascript" src="js/enemies/blackbelt.js"></script>
+        <script type="text/javascript" src="js/enemies/redmage.js"></script>
+        <script type="text/javascript" src="js/enemies/blackmage.js"></script>
+        <script type="text/javascript" src="js/enemies/ninja.js"></script>
+		
+		<script type="text/javascript" src="js/towers/tower.js"></script>
+        <script type="text/javascript" src="js/towers/mgun.js"></script>
+        <script type="text/javascript" src="js/towers/cannon.js"></script>
+        <script type="text/javascript" src="js/bullets/bullet.js"></script>
+        <script type="text/javascript" src="js/bullets/laser.js"></script>
+        
+        <script type="text/javascript" src="js/dashboard/dashboard.js"></script>
+        <script type="text/javascript" src="js/dashboard/button.js"></script>
+		
+		<script type="text/javascript">
+			
+			window.onload = function () {
+				
+				game = new td.Game();
+				game.beforeLevel();
+			};
+			
+		</script>
+	</body>
+</html>

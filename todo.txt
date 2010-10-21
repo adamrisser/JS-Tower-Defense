@@ -1,0 +1,52 @@
+
+
+remove enemy parent class and create util?
+
+move context somewhere common so i dont have to keep it in all constructors
+
+one array of game objects ?
+
+Game
+    - Pause button
+    - Balance
+    - Start Screen
+        - Tower Description
+    - End Screen
+    - Wave count
+
+Bullets
+    - Extend twice
+    - Sounds
+
+Enemies
+    - Slightly randomize starting position
+    - Sprites
+    - Path finding
+    - Flying
+    - Attack damage
+    - Bosses
+    - slightly randomize delays
+
+Towers
+    - Don't allow placement on the dashboard
+    - Don't allow towers on the route
+    - Don't allow towers on top of other towers
+    - Place towers from dash
+    - Upgrades
+    - Sprites
+        - normal
+        - firing
+        
+    - Fix bullet Aim angle
+    - Add new type
+        - Missle
+        - Laser
+        - Slow?
+
+Barriers
+    - Sprite
+    _ Tower that doesn't shoot?
+    
+Track
+    - Create another
+    - Graphics
